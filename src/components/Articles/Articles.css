@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+
+.article-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.article-title hr {
+  width: 52px;
+  height: 2px;
+  background-color: #000000;
+}
+.article-title h1 {
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+}
+.article-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 76px;
+}
+
+.article {
+  width: 350px;
+  height: 512px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 40px 50px 0 rgba(0, 0, 0, 0.1);
+}
+.article img {
+  width: 350px;
+  height: 240px;
+}
+.article-content {
+  padding-left: 33px;
+  padding-right: 66px;
+}
+
+.article-content h3 {
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.article-content p {
+  font-family: "Mulish";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+}
+.article-content p:nth-child(3) {
+  color: #4089ed;
+  font-family: "Mulish";
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.points3 img {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+.design {
+  position: absolute;
+  transform: rotate(180deg);
+  right: 1px;
+  z-index: -1;
+}
+.article-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 69px;
+}
+
+.article-button button {
+  width: 200px;
+  height: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1.4px solid #458ff6;
+  background-color: transparent;
+  border-radius: 55px;
+  justify-self: center;
+  color: #458ff6;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}

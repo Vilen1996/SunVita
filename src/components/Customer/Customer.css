@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+
+.customer-section {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  margin-top: 100px;
+  position: relative;
+}
+.customer-section > img {
+  width: 336px;
+  margin: 40px auto 0 auto;
+  display: block;
+}
+.customer-container {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 1120px;
+  height: 425px;
+  background-color: #5a98f2;
+  border-radius: 24px;
+}
+.customer_content_title hr {
+  width: 56px;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.customer_content_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.customer_content_title h1 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.customer_content_card {
+  display: flex;
+  gap: 29px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.customer_content_card_image img {
+  width: 141px;
+  height: 141px;
+}
+
+.customer_content_card_text2 {
+  width: 420px;
+  text-align: center;
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  margin-top: 0px;
+}
+
+.customer_content_card_text p {
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  margin-bottom: 0px;
+}
+
+.customer_content_card_text p:nth-child(2) {
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  margin-top: 0px;
+}
+.points {
+  position: absolute;
+  left: -50px;
+  bottom: 70px;
+}
+.points2 {
+  position: absolute;
+  right: -50px;
+  top: 20px;
+}

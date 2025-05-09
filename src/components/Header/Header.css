@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.logo-inside-letter {
+  position: absolute;
+  top: -4px;
+  left: 12px;
+  font-family: "Mulish";
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.logo-text {
+  font-family: "Mulish";
+  color: #233348;
+  font-size: 24px;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+.logo-text:hover {
+  color: #3579d1;
+}
+
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  font-family: "Mulish";
+  color: #1f1534;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 50%;
+}
+
+.pages a {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.pages a:hover {
+  color: #3579d1;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 109px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.first-column {
+  width: 450px;
+  height: 338px;
+}
+.header-title {
+  font-family: "Mulish";
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.header-text {
+  font-family: "Mulish";
+  color: #7d7987;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.second-column img {
+  width: 693px;
+  height: 598px;
+}
+.header-button {
+  width: 200px;
+  height: 56px;
+  border-radius: 55px;
+  background-color: #458ff6;
+  color: white;
+  border: none;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* smooth transition for color change */
+}
+
+.header-button:hover {
+  background-color: #3579d1; /* change to a darker shade on hover */
+}

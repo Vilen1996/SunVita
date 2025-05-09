@@ -1,0 +1,60 @@
+.healthcare-content {
+  display: flex;
+  gap: 137px;
+  justify-content: center;
+}
+
+.healthcare-image img {
+  width: 650px;
+  height: 477px;
+}
+
+.healthcare-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 486px;
+  height: 477px;
+}
+
+.healthcare-text hr {
+  width: 56px;
+  height: 2px;
+  background-color: #000;
+  margin: 0;
+}
+
+.healthcare-text h2 {
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.healthcare-text p {
+  font-family: "Mulish";
+  font-weight: 300;
+  font-size: 18px;
+  color: #7d7987;
+}
+
+.healthcare-text button {
+  width: 200px;
+  height: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1.4px solid #458ff6;
+  background-color: transparent;
+  border-radius: 55px;
+  justify-self: center;
+  color: #458ff6;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.healthcare-text button:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
